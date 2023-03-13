@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../src/Aboutme.css';
 
 export default function About() {
   return (
-    <div>
+    <div className='aboutText'>
       <h1>About Me</h1>
       <p>
         I’m a 21 years old Junior Full-Stack Developer. Passion, patience and consistency are three essential qualities

@@ -1,12 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React from 'react';
 import './App.css';
-
-// import NavBar from './components/NavBar'
 import About from './components/AboutMe'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import background from '../src/images/world.jpg'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -35,30 +33,19 @@ function App() {
     
    </header> 
 
-   <div className='homeBackground'>
-   <img
-      src={background}
-      className='w-100 shadow-1-strong rounded mb-4 backgr'
-      alt="Wintry Mountain Landscape"
-    />
-   </div>
-
-   <div className='welcomeText'>
-    <h2>WELCOME TO MY PORTFOLIO</h2>
-   </div>
-
    
 
    <div className='navlinks'>
     <BrowserRouter>
     <Routes>
-      {/* <Route path='/' element={<NavBar/>} /> */}
       <Route path='/AboutMe' element={<About/>} />
       <Route path='/Contact' element={<Contact/>} />
       <Route path='/Projects' element={<Projects/>} />
+      <Route path='/' element={<Home/>} />
    </Routes>
     </BrowserRouter>
    </div>
+
    </>
   );
 }

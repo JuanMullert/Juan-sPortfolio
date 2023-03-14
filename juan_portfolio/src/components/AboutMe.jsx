@@ -1,9 +1,13 @@
 import React from 'react';
 import '../../src/Aboutme.css';
+import profilepic from '../images/jdm.jpeg'
 
 export default function About() {
   return (
     <div className='aboutText'>
+      <picture>
+        <img src={profilepic} alt="" />
+      </picture>
       <h1>About Me</h1>
       <p>
         I’m a 21 years old Junior Full-Stack Developer. Passion, patience and consistency are three essential qualities

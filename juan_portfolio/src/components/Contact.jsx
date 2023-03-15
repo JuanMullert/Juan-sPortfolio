@@ -94,9 +94,39 @@ export default function Contact() {
 
     </div>
 
-    <section className='footer'>
-      <footer> <p>&copy; 2023 Juan Diego Mullert</p> </footer>
-    </section>
+    <footer className="bg-dark text-center text-white footer3">
+   
+   <div className="container p-4 pb-0">
+     
+     <section className="mb-4">
+       
+       <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/juanmullert" role="button"
+         ><i className="fab fa-facebook-f"></i>LinkedIn</a>
+ 
+       
+       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i className="fab fa-twitter"></i>Github</a>
+ 
+       
+       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i className="fab fa-google"></i>Gitlab</a>
+ 
+       
+       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+         ><i className="fab fa-instagram"></i>Youtube</a>
+
+     </section>
+     
+   </div>
+   
+ 
+   
+   <div className="text-center p-3" >
+     © 2023 Copyright: 
+     <a className="text-white" href="https://mdbootstrap.com/"> Juan's Portfolio</a>
+   </div>
+   
+ </footer>
 
 </section>
 

@@ -5,6 +5,7 @@ import About from './components/AboutMe'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Home from './components/Home'
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/AboutMe' element={<About/>} />
+      <Route path='/Resume' element={<Resume/>} />
       <Route path='/Contact' element={<Contact/>} />
       <Route path='/Portfolio' element={<Portfolio/>} />
       <Route path='/' element={<Home/>} />

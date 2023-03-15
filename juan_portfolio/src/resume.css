@@ -1,0 +1,31 @@
+.body4 {
+    background-color: rgb(8, 11, 62);
+}
+
+.proficiencies {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.proficiencies ul {
+    list-style-type: none;
+}
+
+
+.body4 h2 {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.body4 p {
+    margin-left: 3%;
+    color: white;
+    font-size: 22px;
+}
+
+.footer4 {
+    margin-top: 5%;
+}

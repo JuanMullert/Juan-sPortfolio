@@ -94,6 +94,10 @@ export default function Contact() {
 
     </div>
 
+    <section className='footer'>
+      <footer> <p>&copy; 2023 Juan Diego Mullert</p> </footer>
+    </section>
+
 </section>
 
   )

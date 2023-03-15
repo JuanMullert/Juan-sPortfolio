@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import About from './components/AboutMe'
 import Contact from './components/Contact'
-import Projects from './components/Projects'
+import Portfolio from './components/Portfolio'
 import Home from './components/Home'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <a class="nav-link active" href="/AboutMe">About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/Projects">Projects</a>
+    <a class="nav-link" href="/Portfolio">Portfolio</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/Contact">Contact</a>
@@ -33,14 +33,16 @@ function App() {
     
    </header> 
 
-   
+   {/* <footer className='footer'>
+        <p>&copy; 2023 Juan Diego Mullert</p>
+      </footer> */}
 
    <div className='navlinks'>
     <BrowserRouter>
     <Routes>
       <Route path='/AboutMe' element={<About/>} />
       <Route path='/Contact' element={<Contact/>} />
-      <Route path='/Projects' element={<Projects/>} />
+      <Route path='/Portfolio' element={<Portfolio/>} />
       <Route path='/' element={<Home/>} />
    </Routes>
     </BrowserRouter>

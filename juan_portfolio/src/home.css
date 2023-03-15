@@ -19,9 +19,11 @@
   
   .homeBackground {
     position: absolute;
+    margin-bottom: 1%;
   }
 
 .welcome {
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+

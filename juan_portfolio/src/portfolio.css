@@ -1,0 +1,59 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-lg-4 {
+    flex: 0 0 calc(33.333333% - 25px);
+    max-width: calc(33.333333% - 25px);
+    margin: 10px;
+    position: relative;
+    margin-top: 4%;
+  }
+  
+  .imagespr {
+    display: block;
+    width: 60%;
+    height: 50%;
+    border: solid rgb(55, 255, 0) 2px;
+    margin: 1%;
+    margin-top: 2%; 
+  }
+  
+  .col-lg-4:before {
+    content: '';
+    display: block;
+    width: 65%;
+    height: 70%;
+    position: absolute;
+    background: rgba(5, 103, 77, 0.4);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .col-lg-4:hover:before {
+    opacity: 1;
+  }
+  
+  .col-lg-4 a {
+    position: relative;
+    z-index: 1;
+  }
+  
+
+  .textProjects {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    margin-bottom: 3%;
+  }
+
+  .body2 {
+    background-color: rgb(8, 11, 62);
+    
+  }
+
+  .footer2 {
+    margin-top: 5%;
+  }

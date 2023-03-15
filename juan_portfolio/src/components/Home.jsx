@@ -8,7 +8,7 @@ export default function Home() {
         <div className='homeBackground'>
    <img
       src={background}
-      className='w-100 shadow-1-strong rounded mb-4 backgr'
+      className='w-100 shadow-1-strong rounded mb-4 backgr backphoto'
       alt="Wintry Mountain Landscape"
     />
    </div>
@@ -18,5 +18,8 @@ export default function Home() {
      <h3 className="fullstack">Full-Stack Developer</h3>
    </div>
    </section>
+
+   
     )
 }
+

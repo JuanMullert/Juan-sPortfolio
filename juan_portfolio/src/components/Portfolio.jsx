@@ -1,13 +1,13 @@
 import React from 'react'
 
-import gamebro from '../images/gamebro.jpeg'
-import weather from '../images/weather2.jpeg'
-import scheduler from '../images/schedulerimg.png'
-import passGen from '../images/passgen.jpeg'
-import textEd from '../images/texted.jpeg'
-import thenoSQL from '../images/nosql.png'
+import gamebro from '../assets/images/gamebro.jpeg'
+import weather from '../assets/images/weather2.jpeg'
+import scheduler from '../assets/images/schedulerimg.png'
+import passGen from '../assets/images/passgen.jpeg'
+import textEd from '../assets/images/texted.jpeg'
+import thenoSQL from '../assets/images/nosql.png'
 
-import '../../src/portfolio.css';
+import '../../src/assets/portfolio.css';
 
 export default function Myprojects() {
     return (

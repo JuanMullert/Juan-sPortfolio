@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React from 'react';
-import './App.css';
+import '../src/assets/App.css';
 import About from './components/AboutMe'
-import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Home from './components/Home'
-import Resume from './components/Resume';
+import Resume from './components/Resume'
+import Contact2 from './components/Contact'
 
 function App() {
   return (
@@ -23,29 +23,26 @@ function App() {
     <a class="nav-link" href="/Portfolio">Portfolio</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/Contact">Contact</a>
+    <a class="nav-link" href="/Resume">Resume</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/Resume">Resume</a>
+    <a class="nav-link" href="/Contact2">Contact</a>
   </li>
 </ul>
 
         </nav>
     
-   </header> 
-
-   {/* <footer className='footer'>
-        <p>&copy; 2023 Juan Diego Mullert</p>
-      </footer> */}
+   </header>
 
    <div className='navlinks'>
     <BrowserRouter>
     <Routes>
       <Route path='/AboutMe' element={<About/>} />
       <Route path='/Resume' element={<Resume/>} />
-      <Route path='/Contact' element={<Contact/>} />
+      <Route path='/Contact2' element={<Contact2/>} />
       <Route path='/Portfolio' element={<Portfolio/>} />
       <Route path='/' element={<Home/>} />
+      
    </Routes>
     </BrowserRouter>
    </div>

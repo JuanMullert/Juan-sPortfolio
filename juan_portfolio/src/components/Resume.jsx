@@ -1,6 +1,6 @@
 import React from "react";
-import '../../src/resume.css';
-import resume from '../../src/juancv.pdf';
+import '../../src/assets/resume.css';
+import resume from '../../src/assets/juancv.pdf';
 
 export default function Resume() {
     return (
@@ -17,7 +17,6 @@ export default function Resume() {
           <li>JavaScript</li>
           <li>React</li>
           <li>jQuery</li>
-          <li>SASS/SCSS</li>
         </ul>
       </div>
       <div className="proficiencies">

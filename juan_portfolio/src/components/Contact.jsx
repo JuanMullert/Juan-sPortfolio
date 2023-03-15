@@ -1,100 +1,112 @@
-import React from "react";
+import React, {useState} from "react";
+
+import '../../src/assets/contact.css';
+import contactimg from '../assets/images/conact.png'
 
 export default function Contact() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+  
+    const [validationErrors, setValidationErrors] = useState({
+      name: false,
+      email: false,
+      subject: false,
+      message: false,
+    });
+  
+    const handleOnChange = (event) => {
+      const { name, value } = event.target;
+  
+      if (name === 'name') setName(value);
+      if (name === 'email') setEmail(value);
+      if (name === 'subject') setSubject(value);
+      if (name === 'message') setMessage(value);
+    }
+  
+    const handleOnClick = () => {
+      if (name.length < 1) {
+        setValidationErrors({
+          ...validationErrors,
+          name: true
+        });
+      } else {
+        setValidationErrors({
+          ...validationErrors,
+          name: false
+        });
+      }
+    }
+  
     return (
-        <section class="mb-4">
-
-    
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
-   
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me.</p>
-
-    <div class="row">
-
         
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                
-                <div class="row">
-
-                    
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control"></input>
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    
-
-                    
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control"></input>
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    
-
+      <section className="mb-4">
+        
+        <picture>
+          <img className='juan' src={contactimg} alt="" />
+        </picture>
+         
+        <h2 className="h1-responsive font-weight-bold text-center my-4 textFont">Contact me</h2>
+        <p className="text-center w-responsive mx-auto mb-5 textFont2">Do you have any questions? Please do not hesitate to contact me. <br />
+        <br />
+        LOCATION: Clarksville, TN, USA <br />
+        TEL: 859-513-1445 <br />
+        EMAIL: jmullert9@gmail.com</p>
+        <div className="row">
+          <div className="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" className="theform" name="contact-form" action="mail.php" method="POST">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="md-form mb-0">
+                    <input value={name} onChange={(event) => { handleOnChange(event) }} type="text" id="name" name="name" className={`form-control ${validationErrors.name ? 'is-invalid' : ''}`} placeholder='Enter your name'></input>
+                    <label className="textFont" for="name"></label>
+                  </div>
                 </div>
-                
-
-                
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control"></input>
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
+                <div className="col-md-6">
+                  <div className="md-form mb-0">
+                    <input value={email} onChange={(event) => { handleOnChange(event) }} type="text" id="email" name="email" className={`form-control ${validationErrors.name ? 'is-invalid' : ''}`} placeholder='Enter your email'></input>
+                    <label className="textFont" for="email"></label>
+                  </div>
                 </div>
-                
-
-                
-                <div class="row">
-
-                    
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
+              </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="md-form mb-0">
+                    <input value={subject} onChange={(event) => { handleOnChange(event) }} type="text" id="subject" name="subject" className={`form-control ${validationErrors.name ? 'is-invalid' : ''}`} placeholder='Subject'></input>
+                    <label className="textFont" for="subject"></label>
+                  </div>
                 </div>
-                
-
+              </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="md-form">
+                    <textarea value={message} onChange={(event) => { handleOnChange(event) }} type="text" id="message" name="message" rows="2" className={`form-control ${validationErrors.name ? 'is-invalid' : ''}`} placeholder='Your Message'></textarea>
+                    <label className="textFont" for="message"></label>
+                  </div>
+                </div>
+              </div>
             </form>
-
-            <div class="text-center text-md-left">
-                <a href="facebook.com">Send</a>
+            <div className="text-center text-md-left">
+              <button className="btn btn-primary theform" onClick={handleOnClick}>Send</button>
             </div>
-            <div class="status"></div>
-        </div>
-        
-
-        
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
-                </li>
-
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
-                </li>
+            <div className="status"></div>
+          </div>
+          <div className="col-md-3 text-center ">
+            <ul className="list-unstyled mb-0">
+              <li><i className="fas fa-map-marker-alt fa-2x"></i>
+                <p className="textFont">Clarksville, TN, USA</p>
+              </li>
+              <li><i className="fas fa-phone mt-4 fa-2x"></i>
+                <p className="textFont">859-513-1445</p>
+              </li>
+              <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+                <p className="textFont">jmullert9@gmail.com</p>
+              </li>
             </ul>
+          </div>
         </div>
-        
-
-    </div>
-
-    <footer className="bg-dark text-center text-white footer3">
+        <footer className="bg-dark text-center text-white footer">
    
    <div className="container p-4 pb-0">
      
@@ -127,8 +139,11 @@ export default function Contact() {
    </div>
    
  </footer>
-
-</section>
-
-  )
-}
+      </section>
+      
+    )
+  }
+       
+  
+     
+         

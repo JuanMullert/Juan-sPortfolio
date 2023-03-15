@@ -1,0 +1,108 @@
+
+  
+  /* Style for the h2 */
+  .h1-responsive {
+    font-size: 2.5rem;
+    color: white;
+    font-family: monospace;
+  }
+  
+  /* Style for the paragraph */
+  .w-responsive {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  
+  /* Style for the form input labels */
+  label.textFont {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  /* Style for the form inputs */
+  input.form-control,
+  textarea.form-control {
+    font-size: 1.5rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 0.2rem solid #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for the form inputs when they have invalid data */
+  input.is-invalid,
+  textarea.is-invalid {
+    border-bottom: 0.2rem solid #dc3545;
+  }
+  
+  /* Style for the button */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 0;
+  }
+  
+  /* Style for the button when hovering */
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Style for the contact information */
+  ul.list-unstyled li {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Style for the contact information icons */
+  ul.list-unstyled li i {
+    color: #007bff;
+  }
+  
+  /* Style for the contact information text */
+  p.textFont {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .theform {
+    color: white;
+    padding: 2% 6px;
+    border: solid 6px rgb(128, 100, 0);
+    width: 80%; 
+    margin: 0 auto;
+    margin-bottom: 9%;
+  }
+
+  h2 {
+    margin-top: 0%;
+  }
+
+
+ .thebtn {
+    margin: 0%;
+ }
+
+ .mydetails {
+    text-align: center;
+    margin-bottom: 3%;
+
+ }
+
+ .contactText {
+    text-align: center;
+    font-family: monospace;
+ }
+
+ .textFont {
+    color: #000000;
+ }
+
+ .textFont2 {
+    color: #000000;
+    font-size: 20px;
+ }

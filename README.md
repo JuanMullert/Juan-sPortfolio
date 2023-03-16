@@ -2,7 +2,9 @@
 
 On this assignment I was given the task to create my portfolio with React and the latest technologies we've worked with.
 
-##
+## Deployment Link
+
+https://juanmullert.github.io/Juan-sPortfolio/
 
 ## User Story
 

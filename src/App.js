@@ -17,7 +17,7 @@ function App() {
 
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="/AboutMe">About</a>
+    <a class="nav-link active" href="/Juan-sPortfolio/AboutMe">About</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="/Portfolio">Portfolio</a>
@@ -37,7 +37,7 @@ function App() {
    <div className='navlinks'>
     <BrowserRouter>
     <Routes>
-      <Route path='/AboutMe' element={<About/>} />
+      <Route path='/Juan-sPortfolio/AboutMe' element={<About/>} />
       <Route path='/Resume' element={<Resume/>} />
       <Route path='/Contact2' element={<Contact2/>} />
       <Route path='/Portfolio' element={<Portfolio/>} />

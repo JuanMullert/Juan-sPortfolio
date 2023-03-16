@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/juan-sportfolio/static/css/main.45ad1b97.css",
-    "main.js": "/juan-sportfolio/static/js/main.a7a17429.js",
-    "static/js/787.39333e1d.chunk.js": "/juan-sportfolio/static/js/787.39333e1d.chunk.js",
-    "static/media/world.jpg": "/juan-sportfolio/static/media/world.de5659898d3bfc5eb8ea.jpg",
-    "static/media/weather2.jpeg": "/juan-sportfolio/static/media/weather2.4d0e6aa8e12cf723d55f.jpeg",
-    "static/media/texted.jpeg": "/juan-sportfolio/static/media/texted.497a1e89083f5a4fc9a5.jpeg",
-    "static/media/jdm.jpeg": "/juan-sportfolio/static/media/jdm.ffe7e216964df2df1ceb.jpeg",
-    "static/media/juancv.pdf": "/juan-sportfolio/static/media/juancv.2344f5ad6f452f3569aa.pdf",
-    "static/media/schedulerimg.png": "/juan-sportfolio/static/media/schedulerimg.ae13373aed5f104effd8.png",
-    "static/media/gamebro.jpeg": "/juan-sportfolio/static/media/gamebro.a1ac9999282eabafa543.jpeg",
-    "static/media/passgen.jpeg": "/juan-sportfolio/static/media/passgen.eb3e9570bbcb293af47c.jpeg",
-    "static/media/conact.png": "/juan-sportfolio/static/media/conact.77bf369b52c310185c9f.png",
-    "index.html": "/juan-sportfolio/index.html",
-    "main.45ad1b97.css.map": "/juan-sportfolio/static/css/main.45ad1b97.css.map",
-    "main.a7a17429.js.map": "/juan-sportfolio/static/js/main.a7a17429.js.map",
-    "787.39333e1d.chunk.js.map": "/juan-sportfolio/static/js/787.39333e1d.chunk.js.map"
+    "main.css": "/Juan-sPortfolio/static/css/main.45ad1b97.css",
+    "main.js": "/Juan-sPortfolio/static/js/main.0c833c70.js",
+    "static/js/787.39333e1d.chunk.js": "/Juan-sPortfolio/static/js/787.39333e1d.chunk.js",
+    "static/media/world.jpg": "/Juan-sPortfolio/static/media/world.de5659898d3bfc5eb8ea.jpg",
+    "static/media/weather2.jpeg": "/Juan-sPortfolio/static/media/weather2.4d0e6aa8e12cf723d55f.jpeg",
+    "static/media/texted.jpeg": "/Juan-sPortfolio/static/media/texted.497a1e89083f5a4fc9a5.jpeg",
+    "static/media/jdm.jpeg": "/Juan-sPortfolio/static/media/jdm.ffe7e216964df2df1ceb.jpeg",
+    "static/media/juancv.pdf": "/Juan-sPortfolio/static/media/juancv.2344f5ad6f452f3569aa.pdf",
+    "static/media/schedulerimg.png": "/Juan-sPortfolio/static/media/schedulerimg.ae13373aed5f104effd8.png",
+    "static/media/gamebro.jpeg": "/Juan-sPortfolio/static/media/gamebro.a1ac9999282eabafa543.jpeg",
+    "static/media/passgen.jpeg": "/Juan-sPortfolio/static/media/passgen.eb3e9570bbcb293af47c.jpeg",
+    "static/media/conact.png": "/Juan-sPortfolio/static/media/conact.77bf369b52c310185c9f.png",
+    "index.html": "/Juan-sPortfolio/index.html",
+    "main.45ad1b97.css.map": "/Juan-sPortfolio/static/css/main.45ad1b97.css.map",
+    "main.0c833c70.js.map": "/Juan-sPortfolio/static/js/main.0c833c70.js.map",
+    "787.39333e1d.chunk.js.map": "/Juan-sPortfolio/static/js/787.39333e1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45ad1b97.css",
-    "static/js/main.a7a17429.js"
+    "static/js/main.0c833c70.js"
   ]
 }

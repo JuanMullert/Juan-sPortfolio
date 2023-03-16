@@ -1,6 +1,6 @@
 import React from "react";
-import background from '..//assets/images/world.jpg'
-import '../../src/assets/home.css';
+import background from '../assets/images/world.jpg'
+import '../assets/home.css';
 
 export default function Home() {
     return (

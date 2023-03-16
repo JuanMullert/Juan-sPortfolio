@@ -1,6 +1,6 @@
 import React from "react";
-import '../../src/assets/resume.css';
-import resume from '../../src/assets/juancv.pdf';
+import '../assets/resume.css';
+import resume from '../assets/juancv.pdf';
 
 export default function Resume() {
     return (
@@ -37,19 +37,19 @@ export default function Resume() {
      
      <section className="mb-4">
        
-       <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/juanmullert" role="button"
+       <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/juan-mullert-6a2537253/" role="button"
          ><i className="fab fa-facebook-f"></i>LinkedIn</a>
  
        
-       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+       <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/juanmullert" role="button"
          ><i className="fab fa-twitter"></i>Github</a>
  
        
-       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+       <a className="btn btn-outline-light btn-floating m-1" href="https://vanderbilt.bootcampcontent.com/jmullert9-WmlPAO" role="button"
          ><i className="fab fa-google"></i>Gitlab</a>
  
        
-       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+       <a className="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/" role="button"
          ><i className="fab fa-instagram"></i>Youtube</a>
 
      </section>

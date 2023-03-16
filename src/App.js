@@ -6,27 +6,29 @@ import Portfolio from './components/Portfolio'
 import Home from './components/Home'
 import Resume from './components/Resume'
 import Contact2 from './components/Contact'
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <>
+    <BrowserRouter>
       <header>
         <a href='/'> <h1 id='jdtitle'>Juan Diego Mullert</h1> </a>
         <nav>
 
 
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" href="/Juan-sPortfolio/AboutMe">About</a>
+          <ul className="nav justify-content-center">
+            <li className="nav-item">
+              <Link className="nav-link active" to="/AboutMe">About</Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Portfolio">Portfolio</a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Portfolio">Portfolio</Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Resume">Resume</a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Resume">Resume</Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Contact2">Contact</a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Contact2">Contact</Link>
             </li>
           </ul>
 
@@ -35,18 +37,18 @@ function App() {
       </header>
 
       <div className='navlinks'>
-        <BrowserRouter>
+        
           <Routes>
-            <Route path='/Juan-sPortfolio/AboutMe' element={<About />} />
+            <Route path='/AboutMe' element={<About />} />
             <Route path='/Resume' element={<Resume />} />
             <Route path='/Contact2' element={<Contact2 />} />
             <Route path='/Portfolio' element={<Portfolio />} />
             <Route path='/' element={<Home />} />
 
           </Routes>
-        </BrowserRouter>
+        
       </div>
-
+      </BrowserRouter>
     </>
   );
 }

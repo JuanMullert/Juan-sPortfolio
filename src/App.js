@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import React from 'react';
 import './assets/App.css';
 import About from './components/AboutMe'
@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <header>
         <a href='/'> <h1 id='jdtitle'>Juan Diego Mullert</h1> </a>
         <nav>
@@ -48,7 +48,7 @@ function App() {
           </Routes>
         
       </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

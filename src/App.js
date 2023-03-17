@@ -13,7 +13,7 @@ function App() {
     <>
     <HashRouter>
       <header>
-        <a href='/'> <h1 id='jdtitle'>Juan Diego Mullert</h1> </a>
+        <Link to='/'> <h1 id='jdtitle'>Juan Diego Mullert</h1> </Link>
         <nav>
 
 

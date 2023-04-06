@@ -6,6 +6,8 @@ import scheduler from '../assets/images/schedulerimg.png'
 import passGen from '../assets/images/passgen.jpeg'
 import textEd from '../assets/images/texted.jpeg'
 import thenoSQL from '../assets/images/nosql.png'
+import wots from '../assets/images/wots.png'
+
 
 import '../assets/portfolio.css';
 
@@ -16,14 +18,26 @@ export default function Myprojects() {
         
 <div className='row'>
 
+<div className='col-lg-4 col-md-12 mb-4 mb-lg-0'>
+    <a href="https://wotsproject.herokuapp.com/">
+      Project 3 - Word On The Street
+    <img 
+      src= {wots} 
+      className='imagespr'
+      alt="Boat on Calm Water"/>
+      </a>
+    <a href="https://github.com/JuanMullert/WOTS_PROJECT"> <p className='repolink'>Repo Link</p></a> 
+  </div>
+
   <div className='col-lg-4 col-md-12 mb-4 mb-lg-0'>
     <a href="https://gamebrobysarj.herokuapp.com/">
-      GameBro
+     Project 2 - GameBro
     <img 
       src= {gamebro} 
       className='imagespr'
       alt="Boat on Calm Water"/>
       </a>
+      <a href="https://github.com/JuanMullert/GroupProject_JJAR"> <p className='repolink'>Repo Link</p></a>
   </div>
 
   <div className='col-lg-4 mb-4 mb-lg-0'>

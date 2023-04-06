@@ -57,3 +57,11 @@
   .footer2 {
     margin-top: 5%;
   }
+
+  .repolink {
+    color: brown;
+  }
+
+  .repolink:hover {
+    color: rgb(255, 0, 0);
+  }

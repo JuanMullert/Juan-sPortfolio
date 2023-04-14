@@ -12,8 +12,8 @@ export default function Resume() {
       <div className="proficiencies">
         <h3>Frontend Proficiencies</h3>
         <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
+          <li>HTML</li>
+          <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
           <li>jQuery</li>

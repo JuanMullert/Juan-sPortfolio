@@ -26,8 +26,8 @@
     display: block;
     width: 65%;
     height: 70%;
+    color: antiquewhite;
     position: absolute;
-    background: rgba(5, 103, 77, 0.4);
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
   }

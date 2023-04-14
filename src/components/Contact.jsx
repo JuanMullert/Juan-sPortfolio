@@ -4,40 +4,40 @@ import '../assets/contact.css';
 import contactimg from '../assets/images/conact.png'
 
 export default function Contact() {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
-    const [message, setMessage] = useState('');
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [subject, setSubject] = useState('');
+    // const [message, setMessage] = useState('');
   
-    const [validationErrors, setValidationErrors] = useState({
-      name: false,
-      email: false,
-      subject: false,
-      message: false,
-    });
+    // const [validationErrors, setValidationErrors] = useState({
+    //   name: false,
+    //   email: false,
+    //   subject: false,
+    //   message: false,
+    // });
   
-    const handleOnChange = (event) => {
-      const { name, value } = event.target;
+    // const handleOnChange = (event) => {
+    //   const { name, value } = event.target;
   
-      if (name === 'name') setName(value);
-      if (name === 'email') setEmail(value);
-      if (name === 'subject') setSubject(value);
-      if (name === 'message') setMessage(value);
-    }
+    //   if (name === 'name') setName(value);
+    //   if (name === 'email') setEmail(value);
+    //   if (name === 'subject') setSubject(value);
+    //   if (name === 'message') setMessage(value);
+    // }
   
-    const handleOnClick = () => {
-      if (name.length < 1) {
-        setValidationErrors({
-          ...validationErrors,
-          name: true
-        });
-      } else {
-        setValidationErrors({
-          ...validationErrors,
-          name: false
-        });
-      }
-    }
+    // const handleOnClick = () => {
+    //   if (name.length < 1) {
+    //     setValidationErrors({
+    //       ...validationErrors,
+    //       name: true
+    //     });
+    //   } else {
+    //     setValidationErrors({
+    //       ...validationErrors,
+    //       name: false
+    //     });
+    //   }
+    // }
   
     return (
         
@@ -53,7 +53,7 @@ export default function Contact() {
         LOCATION: Clarksville, TN, USA <br />
         TEL: 859-513-1445 <br />
         EMAIL: jmullert9@gmail.com</p>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-9 mb-md-0 mb-5">
             <form id="contact-form" className="theform" name="contact-form" action="mail.php" method="POST">
               <div className="row">
@@ -105,7 +105,7 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <footer className="bg-dark text-center text-white footer">
    
    <div className="container p-4 pb-0">

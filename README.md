@@ -4,7 +4,7 @@ On this assignment I was given the task to create my portfolio with React and th
 
 ## Deployment Link
 
-https://juanmullert.github.io/Juan-sPortfolio/
+https://juanmullertportfolio.herokuapp.com/
 
 ## User Story
 
